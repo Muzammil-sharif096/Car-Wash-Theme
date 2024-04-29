@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: linear-gradient(rgba(3, 3, 3, 0.800), rgba(9, 9, 9, 0.700)), url(../public/img/1\ \(8\).jpg);
+  background-size: 100% 100%;
+}
+
+.image1 {
+  background-image: linear-gradient(rgba(3, 3, 3, 0.800), rgba(9, 9, 9, 0.700)), url(../public/img/1\ \(9\).jpg);
+  background-size: 100% 100%;
+}
+
+.image2 {
+  background-image: linear-gradient(rgba(3, 3, 3, 0.800), rgba(9, 9, 9, 0.700)), url(../public/img/3\ \(8\).jpg);
+  background-size: 100% 100%;
+}
+
+.image3 {
+  background-image: linear-gradient(rgba(3, 3, 3, 0.800), rgba(9, 9, 9, 0.700)), url(../public/img/3\ \(8\).jpg);
+  background-size: 100% 100%;
+}
