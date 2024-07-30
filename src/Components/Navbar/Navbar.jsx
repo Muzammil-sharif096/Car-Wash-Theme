@@ -8,7 +8,7 @@ const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
 
     return (
-        <nav className='flex items-center justify-evenly p-4 bg-white shadow-xl relative'>
+        <nav className='flex items-center justify-evenly p-4 bg-red-500 shadow-xl relative'>
             <img src="./img/logo-light (2).png" alt="" />
             <ul className='lg:flex hidden tracking-wider items-center text-sm font-semibold gap-12'>
                 {NavbarData.map((ele, index) => {
