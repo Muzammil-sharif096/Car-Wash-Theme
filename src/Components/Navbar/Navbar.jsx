@@ -7,6 +7,9 @@ import { FaCartShopping } from "react-icons/fa6";
 const Navbar = () => {
     const [showNavbar, setShowNavbar] = useState(false)
 
+    const handleclk = () => {
+        setShowNavbar(false)
+    }
     return (
         <nav className='flex items-center justify-evenly p-4 bg-white shadow-xl relative'>
             <img src="./img/logo-light (2).png" alt="" />
@@ -49,7 +52,7 @@ const Navbar = () => {
                                     NavbarData.map((ele) => {
                                         return (
                                             <li className='py-2 tracking-wider'>
-                                                <Link
+                                                <Link onClick={handleclk}
                                                     to={ele.Link}
                                                 >
                                                     {ele.Li}

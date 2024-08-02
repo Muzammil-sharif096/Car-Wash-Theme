@@ -7,7 +7,7 @@ const Header = () => {
     const [showDiv3, setShowDiv3] = useState(false);
 
     return (
-        <div className='p-12 bg-gray-200 flex justify-center gap-12'>
+        <div className='p-12 bg-gray-200 flex justify-center flex-wrap gap-12'>
             <div>   
                 <img src="./img/1 (14).jpg" alt="" />
                 <div className='px-3 py-2'>
